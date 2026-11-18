@@ -1,0 +1,13 @@
+.footer {
+  background-color: #facc15; 
+  color: #1e293b; 
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;   /* content aur footer ke beech gap */
+  position: relative; /* normal flow m rahe */
+  border-top: 2px solid #eab308; 
+  border: none;
+  box-shadow: none;
+}
+

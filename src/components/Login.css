@@ -1,0 +1,140 @@
+:root {
+  --primary-bg: #FFF46E; 
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --text-color: #222;
+  --accent-color: #007bff;
+  --accent-hover: #0056b3;
+}
+
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: var(--sidebar-bg);
+  color: var(--text-color);
+}
+
+/* Left Panel (Intro) */
+.login-left {
+  flex: 1;
+  background-color: var(--primary-bg);
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.login-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 350px;
+}
+
+/* Right Panel (Form) */
+.login-right {
+  flex: 1;
+  background: var(--sidebar-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  background: var(--card-bg);
+  padding: 48px 36px;
+  
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.login-form h2 {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1.8px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  color: var(--text-color);
+  transition: border-color 0.3s ease;
+}
+
+.login-form input::placeholder {
+  color: #666;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.login-form button {
+  
+  width: 100%;
+  
+  background-color: var(--accent-color);
+  border: none;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: var(--accent-hover);
+}
+
+.error-msg {
+  color: #D9534F;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+
+
+.signup-toggle {
+  display: block;
+  text-align: center;      /* center button ke neeche */
+  margin-top: 12px;        /* button se thoda gap */
+  font-size: 0.95rem;
+}
+
+.signup-toggle .toggle-link {
+  color: var(--accent-color);   /* blue color */
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.signup-toggle .toggle-link:hover {
+  color: var(--accent-hover);   /* hover effect */
+}

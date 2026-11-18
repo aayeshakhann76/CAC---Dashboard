@@ -1,0 +1,67 @@
+.table-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Inter", sans-serif;
+}
+
+.table-container thead {
+  background: #f9fafb;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.table-container th, 
+.table-container td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-container tbody tr:hover {
+  background: #f9fafb;
+}
+
+.table-container td {
+  font-size: 14px;
+  color: #374151;
+}
+
+.table-container td:nth-child(4),
+.table-container td:nth-child(5) {
+  font-weight: 600; /* CAC + LTV bold */
+}
+
+.table-container td:nth-child(6) {
+  color: #059669; /* LTV:CAC green */
+  font-weight: 600;
+}
+
+.status-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status-excellent {
+  background: #6366f1; /* Indigo */
+}
+
+.status-good {
+  background: #9ca3af; /* Gray */
+}
+
+.status-bad {
+  background: #ef4444; /* Red */
+}
