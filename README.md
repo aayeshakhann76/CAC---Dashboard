@@ -4,16 +4,7 @@ A web-based analytics dashboard designed to monitor and analyse Customer Acquisi
 
 The project helps businesses understand their marketing performance through interactive visualisations, data analysis, and predictive insights.
 
-## Dashboard Preview
 
-### Main Dashboard
-![Main Dashboard](screenshots/dashboard.png)
-
-### Analytics
-![Analytics](screenshots/analytics.png)
-
-### Predictive Analytics
-![Predictive Analytics](screenshots/predictive-analytics.png)
 
 ## Features
 
